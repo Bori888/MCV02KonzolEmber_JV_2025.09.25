@@ -2,14 +2,14 @@
 package vezerlo;
 
 import modell.EmberModell;
-import nezet.CUINezet;
+import nezet.JobbNezet;
 
 
-public class CUIVezerlo {
+public class JobbCUIVezerlo {
     private EmberModell modell;
-    private CUINezet nezet;
+    private JobbNezet nezet;
 
-    public CUIVezerlo(EmberModell modell, CUINezet nezet) {
+    public JobbCUIVezerlo(EmberModell modell, JobbNezet nezet) {
         this.modell = modell;
         this.nezet = nezet;
         

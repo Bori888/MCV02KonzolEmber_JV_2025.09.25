@@ -3,7 +3,7 @@ package nezet;
 
 import java.util.Scanner;
 
-public class CuiNezet {
+public class CUINezet {
     private static final Scanner sc =new Scanner(System.in);
      public void mutat(String uzenet) {
         System.out.println(uzenet);

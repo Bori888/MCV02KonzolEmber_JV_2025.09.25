@@ -2,14 +2,14 @@
 package main;
 
 import modell.EmberModell;
-import nezet.CuiNezet;
+import nezet.CUINezet;
 import vezerlo.CUIVezerlo;
 
 
 public class Mvc02KonzolEmber {
 
     public static void main(String[] args) {
-        CuiNezet nezet = new CuiNezet();
+        CUINezet nezet = new CUINezet();
         nezet.bekerNev();
         nezet.bekerKor();
         
