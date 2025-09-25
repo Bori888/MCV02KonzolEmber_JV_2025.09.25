@@ -13,13 +13,17 @@ public class CUIVezerlo {
         this.modell = modell;
         this.nezet = nezet;
         
+        
+        modell.setNev(nezet.getNev());
+        modell.setKor(nezet.getKor());
+        /*
         String nev = nezet.bekerNev();
         int kor = nezet.bekerKor();
         
         nezet.bekerKor();
-        nezet.bekerNev();
+        nezet.bekerNev();*/
         
-        String kimenet ="%s kora: %d\n".formatted(modell.getNev(),modell.getKor());
+        String kimenet ="%s kora: %d".formatted(modell.getNev(),modell.getKor());
         nezet.mutat(kimenet);
     }
     
